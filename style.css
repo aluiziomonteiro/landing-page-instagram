@@ -35,3 +35,14 @@ body{
 .instagram-phone.img{
     height: 50rem;
 }
+
+.instagram-continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column; /*Coloca um componente em baixo do outro*/
+    /*Agora o align-itens está na horizontal e o justify-content está na vertical*/
+
+    width: 50%;
+    min-height: 34rem;
+}
