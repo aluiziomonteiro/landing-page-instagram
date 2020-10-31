@@ -119,10 +119,12 @@ body{
     height: 3rem;
     width: 10rem;
     background-size: cover; /*Porque os children serão setados logo abaixo*/
+    border-radius: 10px;
 }
 
 .app-download:nth-child(1){
     background-image: url('./img/btn-appstore.png');
+    
 }
 
 .app-download:nth-child(2){
@@ -147,7 +149,7 @@ body{
     .group{
         border: 1px solid transparent;
     }
-    
+
     .instagram-wrapper{
         width: 90%;
     }
