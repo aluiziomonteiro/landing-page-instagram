@@ -16,11 +16,22 @@ body{
     display: flex;
     justify-content: center;
 }
+
 .instagram-wrapper{
     display: flex; /*Organiza todos os componentes em linha*/
-    align-items: center;/*Alinha os ítens no centro (eixo y)*/
-    justify-content: start;/*Alinha os ítens no centro (eixo x). Start alinha da esquerda para a direita*/
-    width: 60%;/*tamanho do container*/
+    align-items: center; /*Alinha os ítens no centro (eixo y)*/
+    justify-content: start; /*Alinha os ítens no centro (eixo x). Start alinha da esquerda para a direita*/
+    width: 60%; /*tamanho do container*/
     height: 100vh;
+}
 
+.instagram-phone{
+    display: flex;
+    align-items: center; /*Alinha na vertical*/
+    justify-content: center; /*Alinha na horizontal*/
+    width: 50%;
+}
+
+.instagram-phone.img{
+    height: 50rem;
 }
