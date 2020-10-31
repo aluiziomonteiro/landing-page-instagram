@@ -90,3 +90,41 @@ body{
     margin-top: 1rem;
 }
 
+.not-account{
+    color: rgb(160, 160, 160);
+}
+
+.link-blue{
+    color: #0095fc;
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly; /*Deixa o mesmo espaço no canto e no meio dos itens*/
+    align-items: center; /*Centralizado verticalmente*/
+    padding: 1rem;
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover; /*Porque os children serão setados logo abaixo*/
+}
+
+.app-download:nth-child(1){
+    background-image: url('./img/btn-appstore.png');
+}
+
+.app-download:nth-child(2){
+    background-image: url('./img/btn-googleplay.png');
+}
